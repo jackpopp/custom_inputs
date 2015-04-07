@@ -1,0 +1,36 @@
+.cs-select {
+    height: 24px;
+    font-size: 16px;
+    overflow: hidden;
+    position: relative;
+    background: white;
+    padding: 5px;
+    border: 1px solid;
+    width: 300px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.cs-select.open {
+    overflow: inherit;
+}
+
+.cs-options {
+    position: absolute;
+    background: white;
+    width: 300px;
+    margin-left: -6px;
+    box-sizing: border-box;
+    margin-top: 1px;
+    border: 1px solid;
+}
+
+.cs-option {
+    padding: 5px;
+}
+
+.cs-option:hover {
+    background: black;
+    color: white;
+}
